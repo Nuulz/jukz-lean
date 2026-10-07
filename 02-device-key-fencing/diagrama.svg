@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="DejaVu Serif, serif" fill="#111">
+<rect width="1000" height="600" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#111"/></marker></defs>
+
+<g font-size="15">
+<g stroke="#111" fill="none" stroke-width="1.2">
+  <rect x="40" y="70" width="210" height="70"/>
+  <rect x="40" y="200" width="210" height="70"/>
+  <rect x="40" y="330" width="210" height="70"/>
+  <path d="M340 165 L400 225 L340 285 L280 225 Z"/>
+  <path d="M640 165 L700 225 L640 285 L580 225 Z"/>
+  <rect x="770" y="190" width="190" height="70" stroke-width="2.4"/>
+  <rect x="580" y="350" width="120" height="50" stroke-dasharray="5 4"/>
+  <rect x="280" y="440" width="120" height="50" stroke-dasharray="5 4"/>
+  <path d="M250 105 H265 V225 H278" marker-end="url(#a)"/>
+  <path d="M250 235 H265"/>
+  <path d="M250 365 H265 V225"/>
+  <path d="M400 225 H578" marker-end="url(#a)"/>
+  <path d="M700 225 H768" marker-end="url(#a)"/>
+  <path d="M640 285 V348" marker-end="url(#a)"/>
+  <path d="M340 285 V438" marker-end="url(#a)"/>
+</g>
+
+<text x="145" y="98" text-anchor="middle" font-style="italic">A · llave</text>
+<text x="145" y="122" text-anchor="middle">(g 5, t 900, n 0x3f…)</text>
+<text x="145" y="228" text-anchor="middle" font-style="italic">B · llave</text>
+<text x="145" y="252" text-anchor="middle">(g 4, t 1200, n 0xa1…)</text>
+<text x="145" y="358" text-anchor="middle" font-style="italic">C · sin llave</text>
+<text x="145" y="382" text-anchor="middle">(g 9, t 1500, n 0x07…)</text>
+
+<text x="340" y="221" text-anchor="middle" font-size="14">¿trae</text>
+<text x="340" y="239" text-anchor="middle" font-size="14">llave?</text>
+<text x="640" y="221" text-anchor="middle" font-size="14">¿nuevo ≻</text>
+<text x="640" y="239" text-anchor="middle" font-size="14">vigente?</text>
+<text x="490" y="215" text-anchor="middle" font-size="13" fill="#555">sí</text>
+<text x="352" y="330" font-size="13" fill="#555">no</text>
+<text x="735" y="215" text-anchor="middle" font-size="13" fill="#555">sí</text>
+<text x="652" y="325" font-size="13" fill="#555">no</text>
+
+<text x="865" y="220" text-anchor="middle" font-style="italic">reemplaza</text>
+<text x="865" y="243" text-anchor="middle">lease ← nuevo</text>
+<text x="640" y="380" text-anchor="middle">se queda</text>
+<text x="340" y="470" text-anchor="middle">426 update</text>
+
+<text x="770" y="300" font-size="13" fill="#555">Resultado: A es host.</text>
+<text x="770" y="320" font-size="13" fill="#555">B pierde (4 &lt; 5) en</text>
+<text x="770" y="340" font-size="13" fill="#555">cualquier orden; C no</text>
+<text x="770" y="360" font-size="13" fill="#555">cuenta aunque g = 9.</text>
+</g>
+
+<line x1="40" y1="515" x2="960" y2="515" stroke="#111" stroke-width="0.8"/>
+<text x="40" y="545" font-size="14"><tspan font-weight="bold">Figura 2.</tspan> Fencing de anuncios con DeviceKey. Orden: a ≻ b ⟺ (g, t, n)(a) &gt; (g, t, n)(b) lexicográficamente.</text>
+<text x="40" y="570" font-size="14">Garantías probadas: generación menor nunca sobrescribe, la generación del lease nunca baja,</text>
+<text x="40" y="590" font-size="14">y el resultado no depende del orden de llegada.</text>
+</svg>

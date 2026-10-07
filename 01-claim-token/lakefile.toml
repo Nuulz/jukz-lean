@@ -1,0 +1,10 @@
+name = "jukz-lean"
+version = "0.1.0"
+defaultTargets = ["main"]
+
+[[lean_lib]]
+name = "JukzClaim"
+
+[[lean_exe]]
+name = "main"
+root = "Main"

@@ -1,0 +1,6 @@
+name = "device-key-fencing"
+version = "0.1.0"
+defaultTargets = ["Fencing"]
+
+[[lean_lib]]
+name = "Fencing"
